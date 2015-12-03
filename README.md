@@ -1,0 +1,3 @@
+#Calculating the force applied by an object using Newtons second law of motion
+
+This is my first ever created C++ program, and was created to help me play around with the language a little bit. If you wish to use this program, remember that Newtons second law of motion applies to inertial reference frames, also known as reference frames(Like earth, a car, a house) traveling at a constant velocity. This is also only done using algebra so you must also be aware of if the acceleration of the object is constant, if not, you will not get an accurate answer.
