@@ -1,5 +1,12 @@
+/**
+*
+* A program to calculate Newtons second Law of motion (Assuming an inertial frame of reference and a constant acceleration)
+*
+**/
+
 #include <iostream>
 
+//Retrieves user integer input from the console(Will crash if non integer is inputted)
 int getUserInput()
 {
     int x;
@@ -9,11 +16,13 @@ int getUserInput()
 
 }
 
+//Calculates the force applied by the object
 int calculateForce(int mass, int acceleration)
 {
     return mass * acceleration;
 }
 
+//Main Function of the program
 int main()
 {
     int mass, acceleration;
